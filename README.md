@@ -40,7 +40,7 @@ Of all the available shells, I've chosen `bash` because it's available on macOS,
 
 	* macOS users may install [homebrew](http://brew.sh) to install useful UNIX tools (and their dependencies) from the command line:
 
-	```
+```
 % /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 % brew install node
 % brew cask install java
