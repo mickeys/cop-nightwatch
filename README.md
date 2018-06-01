@@ -65,17 +65,8 @@ To find the Chrome driver:
 2. Find the line which contains `webdriver.chrome.driver` (in the `selenium -> cli-args` section)
 3. Verify/change the line to be appropriate for your OS:
 
-	* macOS
-
-```
-"webdriver.chrome.driver" : "./node_modules/chromedriver/bin/chromedriver/"
-```
-
-	* Windows	
-
-```
-"webdriver.chrome.driver" : "./node_modules/chromedriver/lib/chromedriver/chromedriver.exe"
-```
+	* macOS `"webdriver.chrome.driver" : "./node_modules/chromedriver/bin/chromedriver/"`
+	* Windows `"webdriver.chrome.driver" : "./node_modules/chromedriver/lib/chromedriver/chromedriver.exe"`
 
 ## Running the demo NightwatchJS test
 
