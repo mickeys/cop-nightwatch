@@ -65,7 +65,8 @@ To find the Chrome driver:
 2. Find the line which contains `webdriver.chrome.driver` (in the `selenium -> cli-args` section)
 3. Verify/change the line to be appropriate for your OS:
 
-	* macOS ```
+	* macOS
+```
 "webdriver.chrome.driver" : "./node_modules/chromedriver/bin/chromedriver/"
 ```
 
