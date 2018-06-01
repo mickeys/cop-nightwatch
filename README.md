@@ -66,11 +66,13 @@ To find the Chrome driver:
 3. Verify/change the line to be appropriate for your OS:
 
 	* macOS
+
 ```
 "webdriver.chrome.driver" : "./node_modules/chromedriver/bin/chromedriver/"
 ```
 
 	* Windows	
+
 ```
 "webdriver.chrome.driver" : "./node_modules/chromedriver/lib/chromedriver/chromedriver.exe"
 ```
