@@ -1,0 +1,47 @@
+{
+  "src_folders": ["tests"],
+  "output_folder": "reports",
+  "custom_commands_path": "commands",
+  "custom_assertions_path": "assertions",
+  "page_objects_path": "pages",
+  "globals_path": "",
+  "test_runner": "default",
+
+  "selenium": {
+    "start_process": true,
+    "server_path": "./node_modules/selenium-server-standalone-jar/jar/selenium-server-standalone-3.12.0.jar",
+    "log_path": "reports",
+    "port": 9999,
+    "cli_args": {
+      "webdriver.chrome.driver": "./node_modules/chromedriver/bin/chromedriver/"
+    }
+  },
+
+  "test_settings": {
+    "default": {
+      "launch_url": "http://localhost",
+      "selenium_port": 9999,
+      "selenium_host": "localhost",
+      "silent": true,
+      "screenshots": {
+        "enabled": false,
+        "path": ""
+      },
+      "desiredCapabilities": {
+        "browserName": "chrome",
+        "javascriptEnabled": true,
+        "acceptSslCerts": true
+      },
+      "skip_testcases_on_fail": false
+    },
+
+    "chrome": {
+      "desiredCapabilities": {
+        "browserName": "chrome",
+        "chromeOptions": {
+          "args": ["--enable-automation", "--disable-infobars"]
+        }
+      }
+    }
+  }
+}
